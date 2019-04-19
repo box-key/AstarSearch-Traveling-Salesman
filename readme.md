@@ -11,7 +11,7 @@ Please refer to sample_data.txt for the detail.
 
 1. This program requires two arguments: path to input file and output file.
 2. Once you specify the argument, run the program.
-3. Enter the start node and specifies a heuristic function from three choices:
-  1) Calculate the average of the weights of the rest of unvisited nodes
-  2) Calcuate the median of the weights of the rest of unvisited nodes
+3. Enter the start node and specifies a heuristic function from two choices:
+    1) Calculate the average of the weights of the rest of unvisited nodes
+    2) Calcuate the median of the weights of the rest of unvisited nodes
 4. Open output file to check the answer.
