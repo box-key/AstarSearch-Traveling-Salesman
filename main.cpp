@@ -154,9 +154,6 @@ class AStarSearch {
 				result = costSum / numEdges * (numNodes - node->numEdgeFromStart);
 				break;
 			case 2:
-				result = minEdge * (numNodes - node->numEdgeFromStart);
-				break;
-			case 3:
 				result = getMedian() * (numNodes - node->numEdgeFromStart);
 				break;
 		}
